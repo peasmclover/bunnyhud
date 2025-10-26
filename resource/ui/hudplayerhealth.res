@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-440"		[$WIN32]
+		"xpos"			"c-460"		[$WIN32]
 		"ypos"			"c110"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
@@ -21,7 +21,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
-		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
@@ -35,7 +34,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
-		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"55"
@@ -72,9 +70,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"50"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
@@ -83,8 +79,24 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"OMORIGAMEscary24"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"255 255 255 255"
 	}
+	
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"77"
+		"ypos"			"50"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"OMORIGAMEscary24"
+		"fgcolor"		"0 0 0 255"
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
