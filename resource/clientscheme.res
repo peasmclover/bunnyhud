@@ -3091,6 +3091,38 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		OMORIGAMEscary48
+		{
+			"1"
+			{
+				"name"		"OMORI_GAME"
+				"tall"		"48"
+				"antialias" "1"
+				"weight"	"20"
+			}
+		}
+		
+		OMORIGAMEscaryNoClipBIG
+		{
+			"1"
+			{
+				"name"		"OMORI_GAME"
+				"tall"		"72"
+				"antialias" "1"
+				"weight"	"40"
+			}
+		}
+		OMORIGAMEscaryNoClip36.2
+		{
+			"1"
+			{
+				"name"		"OMORI_GAME"
+				"tall"		"36"
+				"antialias" "1"
+				"weight"	"20"
+			}
+		}
 	}
 
     //These are the fonts in using in my custom HUD
